@@ -1,0 +1,162 @@
+
+[InstallShield Wizard]
+iDate=0
+iTime=0
+Flag=0
+ISX.EXE Size=630784
+ISX.EXE Date=12:43:52AM  2/24/1998
+ISX.EXE Ver=2.0.0.143
+SETUP.EXE Size=45312
+SETUP.EXE Date=11:53:32AM  1/18/1997
+SETUP.EXE Ver=3.0.111.0
+SETUP.INS Size=70711
+SETUP.INS Date=12:43:22AM  6/18/1998
+SETUP.INS Ver=Not available
+_INST16.EX_ Size=70711
+_INST16.EX_ Date=12:43:22AM  6/18/1998
+_INST16.EX_ Ver=Not available
+_INST32I.EX_ Size=320411
+_INST32I.EX_ Date=12:04:08AM  1/18/1997
+_INST32I.EX_ Ver=Not available
+ISDEPEND.INI Size=6418
+ISDEPEND.INI Date=7:02:10PM  1/27/1999
+ISDEPEND.INI Ver=Not available
+SWDEPEND.INI Size=9254
+SWDEPEND.INI Date=9:02:28AM  1/28/1999
+SWDEPEND.INI Ver=Not available
+ICOMP.EXE Size=119808
+ICOMP.EXE Date=4:05:10PM  1/15/1996
+ICOMP.EXE Ver=3.00.062
+SPLIT.EXE Size=90624
+SPLIT.EXE Date=4:09:36PM  1/15/1996
+SPLIT.EXE Ver=3.00.060
+PACKLIST.EXE Size=87552
+PACKLIST.EXE Date=4:10:30PM  1/15/1996
+PACKLIST.EXE Ver=3.00.060
+Version=2.02
+DevTool=Borland C++ Builder 4
+Platform=Win32
+DisksBuilt=1
+DisksDir=Fractal\144MB\
+TabsVisit=11111111100001111
+LangNum=0
+LangDir=
+
+[VisualDesign]
+AppName=Fractals Interactive Analyzer Windows/C++ 1.0
+AppExe=[Program Files]\Fractal.exe
+AppExeFile=D:\User\Antonio\Programacion\Fractal 1.0\Fractal.exe
+Version=1.0.0.0
+Company=Antonio Carrillo Ledesma
+Title=Fractals Interactive Analyzer Windows/C++ 1.0
+TitleType=1
+BackgrndBmp=
+BackgrndAlign=4
+Backgrnd=1
+BackgrndColor=10
+Uninstall=1
+Silent=1
+SmsMode=0
+
+[Types]
+Types=1
+Type1Components=1
+Type1Name=Complete
+Type1ComponentList=1 
+
+[Components]
+Components=1
+Component1Groups=1
+Component1Name=Application Files
+Component1Description=Application files needed to run the application
+Component1GroupList=1 
+
+[Groups]
+Groups=1
+Group1Size=649988
+Group1Files=5
+Group1Name=Program Files
+Group1Dir=<INSTALLDIR>
+Group1Update=2
+Group1TargetOS=-1
+Group1File1=D:\User\Antonio\Programacion\Fractal 1.0\Mandelbrot.hlp
+Group1File2=D:\User\Antonio\Programacion\Fractal 1.0\Fractal.ico
+Group1File3=D:\User\Antonio\Programacion\Fractal 1.0\General.hlp
+Group1File4=D:\User\Antonio\Programacion\Fractal 1.0\Julia.hlp
+Group1File5=D:\User\Antonio\Programacion\Fractal 1.0\Fractal.exe
+
+[Sequence]
+DestinationLocationDir=<ProgramFilesDir>\Fractals Interactive Analyzer 1.0
+SelectProgramFolderName=Lab. de Dinámica no Lineal
+WelcomeMessage=1
+WelcomeMessageFile=
+UserInformation=1
+DestinationLocation=1
+SelectProgramFolder=1
+BeginFileTransfer=1
+ProgressBar=1
+SetupComplete=1
+SetupCompleteExec=[Program Files]\Fractal.exe
+SetupCompleteExecParam=
+SetupCompleteExecReadme=
+
+[RegEntries]
+Reg1Path=HKEY_CLASSES_ROOT
+Reg1Val1Type=0
+Reg1Val1Name=(Default)
+Reg1Val1Data=(value not set)
+Reg1Vals=1
+Reg2Path=HKEY_CURRENT_USER
+Reg2Val1Type=0
+Reg2Val1Name=(Default)
+Reg2Val1Data=(value not set)
+Reg2Vals=1
+Reg3Path=HKEY_LOCAL_MACHINE
+Reg3Val1Type=0
+Reg3Val1Name=(Default)
+Reg3Val1Data=(value not set)
+Reg3Vals=1
+Reg4Path=HKEY_USERS
+Reg4Val1Type=0
+Reg4Val1Name=(Default)
+Reg4Val1Data=(value not set)
+Reg4Vals=1
+Reg5Path=HKEY_CURRENT_CONFIG
+Reg5Val1Type=0
+Reg5Val1Name=(Default)
+Reg5Val1Data=(value not set)
+Reg5Vals=1
+Reg6Path=HKEY_DYN_DATA
+Reg6Val1Type=0
+Reg6Val1Name=(Default)
+Reg6Val1Data=(value not set)
+Reg6Vals=1
+Regs=6
+
+[Registry]
+
+[Icons]
+Icons=1
+Icon1Param=
+Icon1Cmd=[Program Files]\Fractal.exe
+Icon1Description=Fractals Interactive Analyzer
+Icon1WorkingDir=[Program Files]
+Icon1IconFile=[Program Files]\Fractal.ico
+Icon1RealFile=D:\Fractal\Fractal.ico
+Icon1WhichIcon=0
+Icon1KeyVirtual=0
+Icon1KeyFlags=0
+Icon1StartMenu=0
+Icon1Window=0
+
+[Autoexec]
+PathDir=
+ShareLocks=
+ShareFiles=
+Command=
+
+[CopyToFloppy]
+DriveOption=A:
+DestinationPath=
+DestinationPathOneFile=
+Password=
